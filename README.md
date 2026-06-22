@@ -106,7 +106,7 @@ Download the targets.simple.csv file from: https://www.opensanctions.org/dataset
 
 
 
-Place the file below before running the matching and validation notebooks:
+Place the file below before running the matching and validation notebooks. Rename the file to align: 
 
 ```text
 data/external/opensanctions_targets.simple.csv
