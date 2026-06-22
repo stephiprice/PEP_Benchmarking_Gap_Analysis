@@ -1,0 +1,22 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw and generated data
+data/raw_html/
+data/raw_text/
+data/output/
+
+# Large external files
+data/external/opensanctions_targets.simple.csv
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
