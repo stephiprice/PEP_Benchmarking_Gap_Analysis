@@ -102,6 +102,10 @@ No separately registered Jupyter kernel is required.
 
 The OpenSanctions input file is not stored in this repository because it may be large and changes over time.
 
+Download the targets.simple.csv file from: https://www.opensanctions.org/datasets/peps/
+
+
+
 Place the file below before running the matching and validation notebooks:
 
 ```text
