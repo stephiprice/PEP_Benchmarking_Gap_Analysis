@@ -64,6 +64,8 @@ Matches the final benchmark against OpenSanctions using staged record linkage:
 
 Performs reverse validation by identifying Dutch-relevant OpenSanctions records that are not represented in the benchmark. This is used as a triangulation and completeness check; OpenSanctions is not treated as ground truth.
 
+````markdown
+
 ## Environment setup
 
 Create and activate a virtual environment:
@@ -71,21 +73,30 @@ Create and activate a virtual environment:
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-```
+````
 
 Install the required packages:
 
 ```powershell
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
-Register the environment as a Jupyter kernel:
+When opening the notebooks in VS Code or Jupyter, select the Python interpreter from this virtual environment:
 
-```powershell
-python -m ipykernel install --user --name thesis-pep-benchmark --display-name "Thesis PEP Benchmark"
+```text
+.venv
 ```
 
-Select the `Thesis PEP Benchmark` kernel when opening the notebooks.
+In VS Code, open any notebook, click the kernel selector in the top-right corner, and choose:
+
+```text
+Python Environments → .venv
+```
+
+No separately registered Jupyter kernel is required.
+
+```
+```
 
 ## Required external data
 
